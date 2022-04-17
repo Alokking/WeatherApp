@@ -6,6 +6,7 @@
 
 body{
     font-family: "Nunito", sans-serif;
+    background-image: url(img/bg.jfif);
 }
 
 .input{
@@ -38,7 +39,7 @@ input[type="submit"]{
 
 .display{
     text-align: center;
-    margin: 100px auto;
+    margin: 50px auto;
     height: auto;
     width: 400px;
     box-sizing: border-box;
@@ -47,3 +48,29 @@ input[type="submit"]{
     
 }
 
+.creator{
+    text-align: center;
+    margin: 100px auto 50px auto;
+    height: 10px;
+    width: 400px;
+    font-style: italic ;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 50px;   
+ }
+
+.fb4{
+    height: 110px
+}
+
+
+.insta{
+    width: 150px;
+    height: 110px;
+}
